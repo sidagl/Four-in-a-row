@@ -5,6 +5,7 @@ interface GameBoardProps {
   turn: number;
   handleMove: (col: number) => void;
   username: string;
+  messages: any[];
 }
 
 export default function GameBoard({ board, turn, handleMove, username }: GameBoardProps) {
